@@ -1,4 +1,4 @@
-#Thinkful Shopping List App Challenge
+# Thinkful Shopping List App Challenge
 
 # To complete this challenge requires:
 
@@ -15,7 +15,7 @@ In terms of user experience, your shopping list app must allow users to:
 2. check and uncheck items on the list by clicking the "Check" button
 3. permanently remove items from the list
 
-#Additionally:
+# Additionally:
 
 1. You must use a CDN-hosted version of jQuery
 2. Put your application code in a file called index.js and link to it in index.html
