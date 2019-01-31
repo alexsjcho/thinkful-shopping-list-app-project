@@ -1,30 +1,28 @@
-# Project Requirements
+# Thinkful Shopping List App Challenge
 
-While you're building your quiz app, you'll need to keep in mind what your app must do and how it should be built.
+# To complete this challenge requires:
 
-# User experience requirements
+1. Using DOM manipulation and traversal to dynamically add and remove HTML elements and apply styles.
+2. Linking to an externally hosted library (jQuery) and a locally hosted JavaScript file (index.js).
+3. Linking to your application JavaScript file from the index.html page.
+4. Using 'this' and event delegation
 
-The following requirements cover what the app must do, from the user's perspective.
+# Requirements
 
-1. The starting screen should have a button that users can click to start the quiz.
-2. Users should be prompted through a series of at least 5 multiple choice questions that they can answer.
-3. Users should be asked questions 1 after the other.
-4. Users should only be prompted with 1 question at a time.
-5. Users should not be able to skip questions.
-6. Users should also be able to see which question they're on (for instance, "7 out of 10") and their current score ("5 correct, 2 incorrect").
-7. Upon submitting an answer, users should:
-   receive textual feedback about their answer. If they were incorrect, they should be told the correct answer.
-   be moved onto the next question (or interact with an element to move on).
-8. Users should be shown their overall score at the end of the quiz. In other words, how many questions they got right out of the total questions asked.
-9. Users should be able to start a new quiz.
+In terms of user experience, your shopping list app must allow users to:
 
-# Technical requirements
+1. enter items they need to purchase by entering text and hitting "Return" or clicking the "Add item" button [done]
+2. check and uncheck items on the list by clicking the "Check" button [done]
+3. permanently remove items from the list [done]
 
-Your quiz app must:
+# Additionally:
 
-1. Render answer choices in a <form>.
-2. Use semantic HTML, along with CSS and jQuery.
-3. Follow a11y best practices.
-4. Refer back to the checkpoints on accessibility and forms for help.
-5. Use responsive design.
-6. Be fully usable by keyboard (which will be easy enough if you start with a form).
+1. You must use a CDN-hosted version of jQuery [done]
+2. Put your application code in a file called index.js and link to it in index.html [done]
+3. Be sure to put both script elements at the bottom of the <body> element. [done]
+4. Do not alter index.html or main.css other than adding the links to the external JavaScript inside index.html. Write JavaScript code that works with the existing HTML and CSS to implement the required features. [done]
+5. Hint: you may find it helpful to read up on and use the following jQuery methods: .submit(), preventDefault(), toggleClass(), and closest(). [done]
+
+# Push to GitHub Pages
+
+When you're done, push your work up to GitHub and publish it on GitHub Pages. Submit a link to your repo below. The grading team will provide you with feedback on your work.
